@@ -12,6 +12,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ![image](https://github.com/Singh2je/Ditto/assets/71667958/edc2fdd7-b8d1-4456-9a05-5793e7996ea8)
 
+![image](https://github.com/Singh2je/Ditto/assets/71667958/426eb74f-e305-4202-9df2-8f213303b0fa)
 
 # Ditto
 Summarize Speech and share it with your friends --
