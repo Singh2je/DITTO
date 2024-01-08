@@ -1,0 +1,25 @@
+<div class="topbar">
+  <div class="topbartext">
+    <span style="font-weight: 300; margin-left: 10px; font-size: 1.4em"
+      >Ditto - Export
+    </span>
+  </div>
+</div>
+<div class="parent">
+  <div class="display">
+    <div id="grabdata" class="tcontain">{{ displayData }}</div>
+  </div>
+  <div class="action">
+    <div class="center">
+      <a (click)="html()" class="btn2">HTML</a>
+      <br /><br />
+      <a (click)="print()" class="btn2">PDF/PRINT</a>
+      <br /><br />
+      <a (click)="Onsummarize()" class="btn2">SUMMERIZE</a>
+      <br /><br />
+      <a onclick="history.back()" class="btn2">BACK</a>
+      <br /><br />
+      <a href="/" class="btn2">QUIT</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+.page {
+  background-color: transparent;
+  height: auto;
+  width: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 60%;
+}
+
+@media screen and (max-width: 1000px) {
+  .page {
+    width: 80%;
+  }
+}
+
+.banner {
+  width: 100%;
+  background-color: black;
+  height: 200px;
+  background-image: url("../../assets/about.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  max-width: 100%;
+}
+.image {
+  flex-basis: 200%;
+  order: 2;
+}
+.text {
+  padding-left: 20px;
+}
